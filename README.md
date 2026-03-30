@@ -1,16 +1,16 @@
-# AI-Powered Recruitment Platform 🚀
+# AI-Powered Recruitment Platform 
 
 An intelligent agentic CV-JD matching suite that revolutionizes recruitment workflows through AI-powered screening, matching, and profile optimization.
 
-## 🌟 Features
+##  Features
 
-### 🤖 Agentic CV Screening Platform
+###  Agentic CV Screening Platform
 - Multi-role AI agents for comprehensive CV evaluation
 - LLM-powered CV-to-JD ranked matching with similarity scores
 - Automated SWOT analysis (Strengths, Weaknesses, Opportunities, Threats)
 - GAP analysis identifying skill mismatches and development areas
 
-### ✍️ AI-Driven CV Rewrite Engine
+###  AI-Driven CV Rewrite Engine
 - Intelligent CV rewriting targeting specific job descriptions
 - Real-time match score tracking during optimization
 - Prompt engineering for personalized profile enhancement
@@ -25,13 +25,13 @@ An intelligent agentic CV-JD matching suite that revolutionizes recruitment work
 - Candidate profile parsing from multiple formats
 - Automated data extraction and structuring
 
-### 📊 Advanced Analytics Dashboard
+###  Advanced Analytics Dashboard
 - Real-time matching analytics
 - Candidate ranking and filtering
 - Skill gap visualization
 - Recruitment workflow optimization insights
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Backend**: FastAPI (Python)
 - **Frontend**: Streamlit
@@ -41,7 +41,7 @@ An intelligent agentic CV-JD matching suite that revolutionizes recruitment work
 - **Data Processing**: Pandas, NumPy
 - **Charts**: Plotly
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -79,7 +79,7 @@ An intelligent agentic CV-JD matching suite that revolutionizes recruitment work
    streamlit run app.py
    ```
 
-## 📋 API Endpoints
+##  API Endpoints
 
 - `POST /upload-cv` - Upload and parse candidate CV
 - `POST /upload-jd` - Upload and parse job description
@@ -87,7 +87,7 @@ An intelligent agentic CV-JD matching suite that revolutionizes recruitment work
 - `POST /rewrite-cv` - AI-powered CV rewriting
 - `GET /analytics` - Get matching analytics
 
-## 🤖 Agent Architecture
+##  Agent Architecture
 
 The platform uses multiple specialized AI agents:
 
@@ -98,7 +98,7 @@ The platform uses multiple specialized AI agents:
 5. **Ingestion Agent**: Multi-format data processing
 6. **Coordinator Agent**: Workflow orchestration
 
-## 🎯 Key Capabilities
+##  Key Capabilities
 
 ### Intelligent Matching
 - **Semantic Similarity**: Uses advanced NLP to understand context and meaning
@@ -117,7 +117,7 @@ The platform uses multiple specialized AI agents:
 - **ATS Optimization**: Ensures compatibility with Applicant Tracking Systems
 - **Personalization**: Tailored content for different job types and companies
 
-## 📊 Use Cases
+##  Use Cases
 
 ### For Recruiters
 - **Bulk CV Screening**: Process hundreds of applications quickly
@@ -154,7 +154,7 @@ LOG_LEVEL=INFO
 - **UI Themes**: Customize dashboard appearance in `Dashboard/app.py`
 - **API Endpoints**: Extend functionality in `backend/main.py`
 
-## 🧪 Testing
+##  Testing
 
 Run the comprehensive test suite:
 ```bash
@@ -162,14 +162,14 @@ python demo.py  # Basic functionality demo
 python test_recruitment.py  # Full test suite
 ```
 
-## 📈 Performance Metrics
+##  Performance Metrics
 
 - **Matching Accuracy**: 85-95% semantic understanding
 - **Processing Speed**: < 30 seconds per CV-JD pair
 - **Scalability**: Handles 1000+ concurrent users
 - **API Response Time**: < 2 seconds average
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -177,29 +177,11 @@ python test_recruitment.py  # Full test suite
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
-
-- OpenAI for GPT models and API
-- LangChain for agent framework
-- Streamlit for dashboard framework
-- FastAPI for backend API
-- Sentence Transformers for semantic similarity
-
-## 📞 Support
-
-For support, email ashel018@example.com or create an issue in the repository.
-
----
-
-**Built with ❤️ for revolutionizing recruitment workflows**
-- Prompt engineering for personalized profile enhancement
-- Multi-format CV parsing and processing
-
-### 📄 Multi-Format Ingestion Pipeline
+###  Multi-Format Ingestion Pipeline
 - Job description ingestion from:
   - Web links (URL scraping)
   - Document files (PDF, DOCX, TXT)
@@ -208,7 +190,7 @@ For support, email ashel018@example.com or create an issue in the repository.
 - Candidate profile parsing from multiple formats
 - Automated data extraction and structuring
 
-### 📊 Advanced Analytics Dashboard
+###  Advanced Analytics Dashboard
 - Real-time matching analytics
 - Candidate ranking and filtering
 - Skill gap visualization
@@ -284,7 +266,7 @@ For support, email ashel018@example.com or create an issue in the repository.
    streamlit run app.py
    ```
 
-## 📋 API Endpoints
+##  API Endpoints
 
 - `POST /upload-cv` - Upload and parse candidate CV
 - `POST /upload-jd` - Upload and parse job description
@@ -292,7 +274,7 @@ For support, email ashel018@example.com or create an issue in the repository.
 - `POST /rewrite-cv` - AI-powered CV rewriting
 - `GET /analytics` - Get matching analytics
 
-## 🤖 Agent Architecture
+##  Agent Architecture
 
 The platform uses multiple specialized AI agents:
 
@@ -324,22 +306,9 @@ The platform uses multiple specialized AI agents:
    - Dashboard: `http://localhost:8501`
    - API Docs: `http://127.0.0.1:8000/docs`
 
-## 📁 Project Structure
 
-```
-ai-evaluation-engine/
-├── backend/
-│   ├── main.py              # FastAPI server and endpoints
-│   └── mcq_evaluator.py     # Core evaluation logic
-├── Dashboard/
-│   └── app.py               # Streamlit dashboard
-├── Data/
-│   └── sample_mcq.csv       # Sample MCQ data
-├── requirements.txt         # Python dependencies
-└── README.md               # This file
-```
 
-## 🔧 API Endpoints
+##  API Endpoints
 
 ### MCQ Evaluation
 - `GET /evaluate` - Evaluate MCQ data from CSV

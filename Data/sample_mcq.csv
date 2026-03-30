@@ -1,0 +1,9 @@
+student_id	question	correct_answer	student_answer	concept
+1	What is 2+2?	4	4	Math Basics
+2	Capital of India?	Delhi	Mumbai	Geography
+3	5*5?	25	25	Math Basics
+4	Sun rises from?	East	West	Science
+5	10/2?	5	5	Math Basics
+6	Water chemical formula?	H2O	H2O	Science
+7	Largest planet?	Jupiter	Saturn	Science
+8	HTML stands for?	HyperText Markup Language	HyperText Markup Language	Web

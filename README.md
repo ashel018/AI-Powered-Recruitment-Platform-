@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI-Powered Recruitment Platform 🚀
 
 An intelligent agentic CV-JD matching suite that revolutionizes recruitment workflows through AI-powered screening, matching, and profile optimization.
@@ -42,6 +43,111 @@ An intelligent agentic CV-JD matching suite that revolutionizes recruitment work
 - **Charts**: Plotly
 
 ## 🚀 Quick Start
+
+### Prerequisites
+- Python 3.8+
+- OpenAI API key
+- pip
+
+### Installation
+
+1. **Clone/Update the repository**
+   ```bash
+   cd ai-evaluation-engine
+   ```
+
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Set up environment variables**
+   ```bash
+   export OPENAI_API_KEY="your-api-key-here"
+   ```
+
+4. **Run the application**
+   ```bash
+   # Backend
+   cd backend
+   uvicorn main:app --reload
+
+   # Dashboard (in new terminal)
+   cd Dashboard
+   streamlit run app.py
+   ```
+
+## 📋 API Endpoints
+
+- `POST /upload-cv` - Upload and parse candidate CV
+- `POST /upload-jd` - Upload and parse job description
+- `POST /match-cv-jd` - Perform CV-JD matching with analysis
+- `POST /rewrite-cv` - AI-powered CV rewriting
+- `GET /analytics` - Get matching analytics
+
+## 🤖 Agent Architecture
+
+The platform uses multiple specialized AI agents:
+
+1. **Screening Agent**: Initial CV qualification
+2. **Matching Agent**: Semantic similarity analysis
+3. **Analysis Agent**: SWOT and GAP analysis
+4. **Rewrite Agent**: CV optimization and enhancement
+5. **Ingestion Agent**: Multi-format data processing
+- Prompt engineering for personalized profile enhancement
+- Multi-format CV parsing and processing
+
+### 📄 Multi-Format Ingestion Pipeline
+- Job description ingestion from:
+  - Web links (URL scraping)
+  - Document files (PDF, DOCX, TXT)
+  - LinkedIn job posts
+  - AI-assisted form input
+- Candidate profile parsing from multiple formats
+- Automated data extraction and structuring
+
+### 📊 Advanced Analytics Dashboard
+- Real-time matching analytics
+- Candidate ranking and filtering
+- Skill gap visualization
+- Recruitment workflow optimization insights
+=======
+###  MCQ Evaluation
+- Automated grading of multiple-choice questions
+- Performance analytics by concept/topic
+- Individual question analysis
+- Accuracy metrics and insights
+
+###  AI Short Answer Evaluation
+- Semantic similarity analysis
+- Automated scoring (0-100)
+- Intelligent feedback generation
+- Key term detection and suggestions
+
+###  Code Execution Evaluator
+- Safe Python code execution in sandboxed environment
+- Output comparison with expected results
+- Timeout protection and error handling
+- Similarity-based scoring
+
+###  Interactive Dashboard
+- Real-time performance metrics
+- Concept-wise analysis charts
+- Batch CSV upload and evaluation
+- Professional UI with Streamlit
+>>>>>>> 6dbbc7dc155de224c1c7aacc7835709dd5a6be82
+
+## Tech Stack
+
+- **Backend**: FastAPI (Python)
+- **Frontend**: Streamlit
+- **AI/ML**: LangChain, OpenAI GPT, Sentence Transformers
+- **Document Processing**: PyPDF2, python-docx, BeautifulSoup
+- **Vector Database**: ChromaDB / FAISS
+- **Data Processing**: Pandas, NumPy
+- **Charts**: Plotly
+
+##  Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -144,7 +250,7 @@ ai-evaluation-engine/
 - `POST /evaluate_code` - Evaluate Python code execution
 - `GET /evaluate_code` - Browser-friendly code evaluation
 
-## 📊 Sample Data Format
+##  Sample Data Format
 
 ### MCQ CSV Format
 ```csv
@@ -171,7 +277,7 @@ student_id	question	correct_answer	student_answer	concept
 }
 ```
 
-## 🎯 Usage Examples
+##  Usage Examples
 
 ### Evaluate Short Answer
 ```bash
@@ -187,14 +293,14 @@ curl -X POST http://127.0.0.1:8000/evaluate_code \
   -d '{"student_code":"print(int(input())*2)","test_input":"3","expected_output":"6"}'
 ```
 
-## 🔒 Security Features
+##  Security Features
 
 - **Code Execution**: Sandboxed in temporary directories with timeout
 - **Input Validation**: All API inputs validated
 - **Error Handling**: Graceful error responses
 - **Rate Limiting**: Built-in FastAPI rate limiting
 
-## 📈 Dashboard Features
+##  Dashboard Features
 
 - **Overview Tab**: Performance metrics and charts
 - **Concept Analysis**: Topic-wise performance breakdown
@@ -203,7 +309,7 @@ curl -X POST http://127.0.0.1:8000/evaluate_code \
 - **Code Evaluator**: Code execution and scoring
 - **Batch CSV**: Upload and evaluate multiple answers
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -211,19 +317,6 @@ curl -X POST http://127.0.0.1:8000/evaluate_code \
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Built with ❤️ for educational assessment automation
-- Inspired by the need for fair and efficient evaluation systems
-
-## 📞 Support
-
-For questions or issues, please open an issue on GitHub or contact the maintainers.
-
----
-
-**Made with ❤️ using FastAPI, Streamlit, and Python**

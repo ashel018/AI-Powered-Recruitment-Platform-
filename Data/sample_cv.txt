@@ -1,0 +1,57 @@
+John Smith
+Software Engineer
+
+Contact Information:
+Email: john.smith@email.com
+Phone: (555) 123-4567
+LinkedIn: linkedin.com/in/johnsmith
+Location: San Francisco, CA
+
+Professional Summary:
+Experienced software engineer with 5+ years of expertise in full-stack development, cloud technologies, and agile methodologies. Proven track record of delivering scalable web applications and leading development teams. Strong background in Python, JavaScript, and cloud platforms.
+
+Work Experience:
+
+Senior Software Engineer
+TechCorp Inc., San Francisco, CA
+January 2020 - Present
+- Led development of microservices architecture serving 1M+ users
+- Implemented CI/CD pipelines reducing deployment time by 60%
+- Mentored junior developers and conducted code reviews
+- Technologies: Python, Django, React, AWS, Docker, Kubernetes
+
+Software Engineer
+StartupXYZ, San Francisco, CA
+June 2018 - December 2019
+- Developed RESTful APIs and web applications
+- Optimized database queries improving performance by 40%
+- Collaborated with cross-functional teams in agile environment
+- Technologies: JavaScript, Node.js, MongoDB, Express.js
+
+Education:
+Bachelor of Science in Computer Science
+University of California, Berkeley
+Graduated: May 2018
+
+Skills:
+- Programming: Python, JavaScript, Java, C++
+- Web Technologies: React, Node.js, Django, Flask
+- Cloud Platforms: AWS, Azure, GCP
+- Databases: PostgreSQL, MongoDB, Redis
+- Tools: Docker, Kubernetes, Git, Jenkins
+- Methodologies: Agile, Scrum, TDD
+
+Certifications:
+- AWS Certified Solutions Architect
+- Certified Scrum Master (CSM)
+
+Projects:
+E-commerce Platform (2021)
+- Built scalable e-commerce platform using microservices
+- Integrated payment processing and inventory management
+- Technologies: Python, Django, React, PostgreSQL, AWS
+
+Real-time Chat Application (2020)
+- Developed real-time chat application with WebSocket
+- Implemented user authentication and message encryption
+- Technologies: Node.js, Socket.io, MongoDB, React

@@ -1,0 +1,57 @@
+Senior Python Developer
+
+About TechFlow Solutions:
+TechFlow Solutions is a leading technology company specializing in AI-powered business solutions. We are seeking a talented Senior Python Developer to join our growing engineering team.
+
+Job Description:
+We are looking for an experienced Python developer to design, develop, and maintain high-quality software solutions. The ideal candidate will have strong expertise in Python development, cloud technologies, and modern software engineering practices.
+
+Key Responsibilities:
+- Design and develop scalable Python applications and APIs
+- Collaborate with cross-functional teams to deliver high-quality software
+- Implement best practices for code quality, testing, and documentation
+- Optimize application performance and scalability
+- Participate in code reviews and mentor junior developers
+- Stay updated with latest Python frameworks and technologies
+
+Requirements:
+- 4+ years of experience in Python development
+- Bachelor's degree in Computer Science or related field
+- Strong knowledge of Django, Flask, or FastAPI frameworks
+- Experience with cloud platforms (AWS, Azure, or GCP)
+- Proficiency in database design and SQL/NoSQL databases
+- Experience with RESTful API development
+- Knowledge of containerization (Docker) and orchestration (Kubernetes)
+- Familiarity with CI/CD pipelines and DevOps practices
+- Experience with version control systems (Git)
+- Strong problem-solving and analytical skills
+
+Preferred Qualifications:
+- Experience with machine learning frameworks (TensorFlow, PyTorch)
+- Knowledge of microservices architecture
+- Experience with React or other frontend frameworks
+- AWS certifications
+- Experience in agile development methodologies
+
+Technical Skills Required:
+- Python (expert level)
+- Django or Flask
+- PostgreSQL, MongoDB
+- AWS (EC2, S3, Lambda)
+- Docker, Kubernetes
+- Git, GitHub
+- REST APIs
+- Unit testing (pytest)
+- Linux/Unix
+
+What We Offer:
+- Competitive salary and equity package
+- Comprehensive health, dental, and vision insurance
+- Flexible work arrangements (remote/hybrid)
+- Professional development opportunities
+- Modern tech stack and tools
+- Collaborative and innovative work environment
+
+Location: San Francisco, CA (Hybrid)
+Employment Type: Full-time
+Salary Range: $120,000 - $160,000 per year
